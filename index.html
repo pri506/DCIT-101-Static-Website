@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fasion Website</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+  }
+
+  nav .logo{
+    padding: 22px 20px;
+    float: left;
+    height: 80px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li a{
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
+  }
+
+  nav ul li a.active{
+    background: #e2472e;
+    color:#fff;
+    border-radius: 6px;
+  }
+
+  .sub-menu-1 {
+    display: none;
+  }
+
+  section{
+    width: 100%;
+    height: 100vh;
+    background: url(395676.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+</style>
+<body>
+  
+  <div class="wrap">
+    <nav>
+  <div class="logo">FASHION</div>
+      <ul>
+        <li><a class ="active" href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#"><img src="phone.png" alt="Contact"> +233 240 449 442</a></li>
+      </ul>
+    </nav>
+    <section></section>
+  </div>
+  
+</body>
+</html>
